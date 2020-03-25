@@ -14,7 +14,7 @@
 
 #### Password
 
- - [vue-switches](https://www.avast.com/random-password-generator) - An on/off switch component for Vue.js with theme support.
+ - [password-generator](https://www.avast.com/random-password-generator) - Best Free Random Password Generator.
 
 
 #### Under development
