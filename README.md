@@ -1,4 +1,4 @@
-# awesome-tips
+# A Little Bit of Awesome
 For me, the awesome tips
 
 <p align="center">
