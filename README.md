@@ -11,7 +11,7 @@
 
 > For me, a curated list of awesome tips and things.
 
-#### Switch
+#### Under development
 
-*Switch / on/off toggle / checkbox*
-lala lele lili
+*That's so 2000s ...*
+
