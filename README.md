@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img width="400" src="https://wree-fm.sagacom.com/wp-content/blogs.dir/74/files/2020/02/Awesome-DL-002-620x400.jpg" alt="logo of vue-awesome repository">
+  <img width="400" src="https://raw.githubusercontent.com/sINusBob/awesome-tips/master/Awesome-DL-002-620x400.jpg" alt="A Little Bit of Awesome Tips">
   <br>
   <br>
 </p>
