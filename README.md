@@ -11,6 +11,12 @@
 
 > For me, a curated list of awesome tips and things.
 
+
+#### Password
+
+ - [vue-switches](https://www.avast.com/random-password-generator) - An on/off switch component for Vue.js with theme support.
+
+
 #### Under development
 
 *That's so 2000s ...*
