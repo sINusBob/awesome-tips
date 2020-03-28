@@ -17,7 +17,7 @@
 
 #### AutoHotkey
 
-- [Avast Password Generator](https://github.com/sINusBob/https://github.com/sINusBob/AutoHotkey-Super-Simple-Script-Resize-and-Move-Active-Window) - AutoHotkey Super Simple Script Resize and Move Active Window.
+- [Resize and Move Window](https://github.com/sINusBob/https://github.com/sINusBob/AutoHotkey-Super-Simple-Script-Resize-and-Move-Active-Window) - AutoHotkey Super Simple Script Resize and Move Active Window.
 
 
 #### Under development
