@@ -10,9 +10,14 @@
 > For me, a curated list of awesome tips and things. If you don't agree, I'm sorry and thank you =]
 
 
-#### Password
+#### Generator
 
  - [Avast Password Generator](https://www.avast.com/random-password-generator) - Best Free Random Password Generator.
+
+
+#### AutoHotkey
+
+- [Avast Password Generator](https://github.com/sINusBob/https://github.com/sINusBob/AutoHotkey-Super-Simple-Script-Resize-and-Move-Active-Window) - AutoHotkey Super Simple Script Resize and Move Active Window.
 
 
 #### Under development
