@@ -20,6 +20,11 @@
 - [Resize and Move Window](https://github.com/sINusBob/https://github.com/sINusBob/AutoHotkey-Super-Simple-Script-Resize-and-Move-Active-Window) - AutoHotkey Super Simple Script Resize and Move Active Window.
 
 
+#### Vuetify.js
+
+- [File Upload](https://github.com/sINusBob/super-simple-upload-file/) - Super Simple File Upload Component for Vuetify.js.
+
+
 #### Under development
 
 *That's so 2000s ...*
