@@ -24,7 +24,9 @@
 
 - Super Simple Way to Add Global Method.
 ```javascript
-// In your file that init the Vue app.
+/////////////////////////////////////
+// In your file that init the Vue app
+/////////////////////////////////////
 Vue.mixin({
     methods: {
         myGlobalMethod: function (myParam) {
@@ -33,6 +35,10 @@ Vue.mixin({
     }
 });
 
+//////////////////////////////////////////////////////
+// To run on any other file that is related to the app
+//////////////////////////////////////////////////////
+this.myGlobalMethod('im ok');
 ```
 
 
