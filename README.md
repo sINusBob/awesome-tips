@@ -25,22 +25,21 @@
 - [File Upload](https://github.com/sINusBob/super-simple-upload-file/) - Super Simple File Upload Component for Vuetify.js.
 
 
+#### Github
+
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+#### Formulas
+
+- [Measure the performance increase] - How did I measure the performance increase?
+```javascript
+((old - new) / old) * 100%
+= ((20 sec - 5 sec) / 20 sec) * 100%
+= 75 % (performance increase) 
+```
+
+
 #### Under development
 
 *That's so 2000s ...*
-
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
- 
-```python
-s = "Python syntax highlighting"
-print s
-```
- 
-```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
-```
