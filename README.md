@@ -20,6 +20,22 @@
 - [Resize and Move Window](https://github.com/sINusBob/https://github.com/sINusBob/AutoHotkey-Super-Simple-Script-Resize-and-Move-Active-Window) - AutoHotkey Super Simple Script Resize and Move Active Window.
 
 
+#### Vue.js
+
+- Super Simple Way to Add Global Method.
+```javascript
+// In your file that init the Vue app.
+Vue.mixin({
+    methods: {
+        myGlobalMethod: function (myParam) {
+            console.log(myParam);
+        },
+    }
+});
+
+```
+
+
 #### Vuetify.js
 
 - [File Upload](https://github.com/sINusBob/super-simple-upload-file/) - Super Simple File Upload Component for Vuetify.js.
@@ -27,12 +43,12 @@
 
 #### Github
 
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - GitHub Markdown Quick Reference and Showcase
 
 
 #### Formulas
 
-- [Measure the performance increase] - How did I measure the performance increase?
+- How did I measure the performance increase?
 ```javascript
 ((old - new) / old) * 100%
 = ((20 sec - 5 sec) / 20 sec) * 100%
