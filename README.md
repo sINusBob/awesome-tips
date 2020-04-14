@@ -63,6 +63,9 @@ this.myGlobalMethod('im ok');
 = 75 % (performance increase) 
 ```
 
+#### PHPSTORM
+
+- [Autocompletion Webpack Path](https://stefanbauer.me/tips-and-tricks/autocompletion-for-webpack-path-aliases-in-phpstorm-when-using-laravel-mix) - How Autocompletion for Webpack path aliases in PhpStorm when using Laravel Mix
 
 
 #### Javascript
