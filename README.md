@@ -66,6 +66,10 @@ this.myGlobalMethod('im ok');
 #### PHPSTORM
 
 - [Autocompletion Webpack Path](https://stefanbauer.me/tips-and-tricks/autocompletion-for-webpack-path-aliases-in-phpstorm-when-using-laravel-mix) - How Autocompletion for Webpack path aliases in PhpStorm when using Laravel Mix
+- PHPSTORM hide cursor while typing. Setting ide.hide.cursor.when.typing custom property to false (Help->Edit Custom Properties..) will disable the feature
+```
+ide.hide.cursor.when.typing=false
+```
 
 
 #### Javascript
