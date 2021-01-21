@@ -14,7 +14,7 @@
 
  - [Avast Password Generator](https://www.avast.com/random-password-generator) - Best Free Random Password Generator.
  - [LastPass Password Generator](https://www.lastpass.com/pt/password-generator) - Another Best Free Random Password Generator.
- - [Wheel of Names](https://www.lastpass.com/pt/password-generator) - Nice Random Name Picker.
+ - [Wheel of Names](https://wheelofnames.com) - Nice Random Name Picker.
 
 
 #### AutoHotkey
