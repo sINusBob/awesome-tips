@@ -78,27 +78,39 @@ this.myGlobalMethod('im ok');
 
 - [File Upload](https://github.com/sINusBob/super-simple-upload-file/) - Super Simple File Upload Component for Vuetify.js.
 
-- lalalaa.
+- Best and simplest way (for me) to list multiple checkboxes (v-checkbox) within a list (v-list-item).
+Objective: I want, when clicking on an item in the list, the checkbox is selected and at the same time, all checkboxes that have been selected are kept in a single model.
 ```javascript
-/////////////////////////////////////
-// In your file that init the Vue app
-/////////////////////////////////////
-Vue.mixin({
-    methods: {
-        myGlobalMethod: function (myParam) {
-            console.log(myParam);
-        },
-    }
-});
+...
+////////////////////////////////////////////////////////////////////////
+//
+////////////////////////////////////////////////////////////////////////
+data() {
+    return {
+        checkboxes: [
+            {id: 1, name: 'name1'},
+            {id: 2, name: 'name2'},
+            {id: 3, name: 'name3'},
+        ],
 
-//////////////////////////////////////////////////////
-// To run on any other file that is related to the app
-//////////////////////////////////////////////////////
-this.myGlobalMethod('im ok');
+        settings: [],
+    }
+},
+...
+////////////////////////////////////////////////////////////////////////
+//
+////////////////////////////////////////////////////////////////////////
+watch: {
+    settings(newValue, oldValue) {
+        console.log(newValue, oldValue)
+    },
+},
+...
 ```
 
 ```html
 <v-list>
+<!--   the magic, simple as it is, is here (v-model="settings" & :value="item") -->
     <v-list-item-group multiple v-model="settings">
         <template v-for="(item, idx) in checkboxes">
             <v-list-item
