@@ -68,9 +68,10 @@ watch: {
 ```
 
 ```html
-<v-list>
+<!-- v-list flat: I don't want the item to have the selected effect, only the checkbox -->
+<v-list flat>
 <!--   the magic, simple as it is, is here (v-model="settings" & :value="item") -->
-    <v-list-item-group multiple v-model="settings">
+    <v-list-item-group multiple v-model="settings" active-class="no-active">
         <template v-for="(item, idx) in checkboxes">
             <v-list-item
                 :key="idx"
@@ -88,6 +89,25 @@ watch: {
         </template>
     </v-list-item-group>
 </v-list>
+```
+
+```css
+/* css totally optional */
+
+/* disable ripple effect */
+>>>.v-ripple__container {
+    display: none !important;
+}
+
+/* disable selected item effect, however the 'flat' prop seems to be better */
+.no-active::before{
+
+    /* seems to be better with this */
+    opacity: 0 !important;
+    
+    /*background-color: transparent !important;*/
+}
+
 ```
 
 #### Javascript
