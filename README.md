@@ -78,6 +78,49 @@ this.myGlobalMethod('im ok');
 
 - [File Upload](https://github.com/sINusBob/super-simple-upload-file/) - Super Simple File Upload Component for Vuetify.js.
 
+- lalalaa.
+```javascript
+/////////////////////////////////////
+// In your file that init the Vue app
+/////////////////////////////////////
+Vue.mixin({
+    methods: {
+        myGlobalMethod: function (myParam) {
+            console.log(myParam);
+        },
+    }
+});
+
+//////////////////////////////////////////////////////
+// To run on any other file that is related to the app
+//////////////////////////////////////////////////////
+this.myGlobalMethod('im ok');
+```
+
+```html
+<v-list>
+    <v-list-item-group multiple v-model="settings">
+        <template v-for="(item, idx) in checkboxes">
+            <v-list-item
+                :key="idx"
+                :value="item"
+            >
+                <template v-slot:default="{ active }">
+                    <v-list-item-action>
+                        <v-checkbox :input-value="active"></v-checkbox>
+                    </v-list-item-action>
+                    <v-list-item-content>
+                        <v-list-item-title>{{item.name}}</v-list-item-title>
+                    </v-list-item-content>
+                </template>
+            </v-list-item>
+        </template>
+    </v-list-item-group>
+</v-list>
+```
+
+
+
 
 #### Github
 
