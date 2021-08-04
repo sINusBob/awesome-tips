@@ -10,48 +10,6 @@
 > For me, a curated list of awesome tips and things. If you don't agree, I'm sorry and thank you =]
 
 
-#### MSDOS
-
-- How get/display the date/time in ISO 8601 format
-```
-@echo off
-FOR /F "skip=1 tokens=1-6" %%G IN ('WMIC Path Win32_LocalTime Get Day^,Hour^,Minute^,Month^,Second^,Year /Format:table') DO (
-   IF "%%~L"=="" goto s_done
-      SET _yyyy=%%L
-      SET _mm=00%%J
-      SET _dd=00%%G
-      SET _hour=00%%H
-      SET _minute=00%%I
-      SET _second=00%%K
-)
-
-:s_done
-:: Pad digits with leading zeros
-      SET _mm=%_mm:~-2%
-      SET _dd=%_dd:~-2%
-      SET _hour=%_hour:~-2%
-      SET _minute=%_minute:~-2%
-      SET _second=%_second:~-2%
-
-:: Display the date/time in ISO 8601 format:
-ECHO.
-SET _isodate=%_yyyy%-%_mm%-%_dd% %_hour%:%_minute%:%_second%
-ECHO %_isodate%
-```
-
-
-#### Generator
-
- - [Avast Password Generator](https://www.avast.com/random-password-generator) - Best Free Random Password Generator.
- - [LastPass Password Generator](https://www.lastpass.com/pt/password-generator) - Another Best Free Random Password Generator.
- - [Wheel of Names](https://wheelofnames.com) - Nice Random Name Picker.
-
-
-#### AutoHotkey
-
-- [Resize and Move Window](https://github.com/sINusBob/https://github.com/sINusBob/AutoHotkey-Super-Simple-Script-Resize-and-Move-Active-Window) - AutoHotkey Super Simple Script Resize and Move Active Window.
-
-
 #### Vue.js
 
 - Super Simple Way to Add Global Method.
@@ -78,6 +36,7 @@ this.myGlobalMethod('im ok');
 
 - [File Upload](https://github.com/sINusBob/super-simple-upload-file/) - Super Simple File Upload Component for Vuetify.js.
 
+##### multiple v-checkbox inside v-list-item
 - Best and simplest way (for me) to list multiple checkboxes (v-checkbox) within a list (v-list-item).
 Objective: I want, when clicking on an item in the list, the checkbox is selected and at the same time, all checkboxes that have been selected are kept in a single model.
 ```javascript
@@ -131,32 +90,6 @@ watch: {
 </v-list>
 ```
 
-
-
-
-#### Github
-
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - GitHub Markdown Quick Reference and Showcase
-
-
-#### Formulas
-
-- How did I measure the performance increase?
-```javascript
-((old - new) / old) * 100%
-= ((20 sec - 5 sec) / 20 sec) * 100%
-= 75 % (performance increase) 
-```
-
-#### PHPSTORM
-
-- [Autocompletion Webpack Path](https://stefanbauer.me/tips-and-tricks/autocompletion-for-webpack-path-aliases-in-phpstorm-when-using-laravel-mix) - How Autocompletion for Webpack path aliases in PhpStorm when using Laravel Mix
-- PHPSTORM hide cursor while typing. Setting ide.hide.cursor.when.typing custom property to false (Help->Edit Custom Properties..) will disable the feature
-```
-ide.hide.cursor.when.typing=false
-```
-
-
 #### Javascript
 
 - Estados do Brasil em um Javascript Array
@@ -190,6 +123,74 @@ const uf = [
   {'uf': 'SE', 'estado': 'Sergipe'},
   {'uf': 'TO', 'estado': 'Tocantins'},
 ];
+```
+
+
+#### MSDOS
+
+- How get/display the date/time in ISO 8601 format
+```
+@echo off
+FOR /F "skip=1 tokens=1-6" %%G IN ('WMIC Path Win32_LocalTime Get Day^,Hour^,Minute^,Month^,Second^,Year /Format:table') DO (
+   IF "%%~L"=="" goto s_done
+      SET _yyyy=%%L
+      SET _mm=00%%J
+      SET _dd=00%%G
+      SET _hour=00%%H
+      SET _minute=00%%I
+      SET _second=00%%K
+)
+
+:s_done
+:: Pad digits with leading zeros
+      SET _mm=%_mm:~-2%
+      SET _dd=%_dd:~-2%
+      SET _hour=%_hour:~-2%
+      SET _minute=%_minute:~-2%
+      SET _second=%_second:~-2%
+
+:: Display the date/time in ISO 8601 format:
+ECHO.
+SET _isodate=%_yyyy%-%_mm%-%_dd% %_hour%:%_minute%:%_second%
+ECHO %_isodate%
+```
+
+
+#### Generator
+
+ - [Avast Password Generator](https://www.avast.com/random-password-generator) - Best Free Random Password Generator.
+ - [LastPass Password Generator](https://www.lastpass.com/pt/password-generator) - Another Best Free Random Password Generator.
+ - [Wheel of Names](https://wheelofnames.com) - Nice Random Name Picker.
+
+
+#### AutoHotkey
+
+- [Resize and Move Window](https://github.com/sINusBob/https://github.com/sINusBob/AutoHotkey-Super-Simple-Script-Resize-and-Move-Active-Window) - AutoHotkey Super Simple Script Resize and Move Active Window.
+
+
+
+
+
+#### Github
+
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - GitHub Markdown Quick Reference and Showcase
+
+
+#### Formulas
+
+- How did I measure the performance increase?
+```javascript
+((old - new) / old) * 100%
+= ((20 sec - 5 sec) / 20 sec) * 100%
+= 75 % (performance increase) 
+```
+
+#### PHPSTORM
+
+- [Autocompletion Webpack Path](https://stefanbauer.me/tips-and-tricks/autocompletion-for-webpack-path-aliases-in-phpstorm-when-using-laravel-mix) - How Autocompletion for Webpack path aliases in PhpStorm when using Laravel Mix
+- PHPSTORM hide cursor while typing. Setting ide.hide.cursor.when.typing custom property to false (Help->Edit Custom Properties..) will disable the feature
+```
+ide.hide.cursor.when.typing=false
 ```
 
 
